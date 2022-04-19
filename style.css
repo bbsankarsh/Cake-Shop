@@ -8,12 +8,13 @@ body {
     width: 100%;
 }
 .topnav{
-    display: flex;
+    display:flex ;
     justify-content: center;
-    background-color: black;
+    background-color: #2B2825;
     font-family: 'Oswald', sans-serif;
     width: 100%;
     position: fixed;
+    text-align: center;
 }
 .topnav a {
     padding: 20px 20px;
@@ -23,6 +24,8 @@ body {
     font-size: 17px;
     font-weight: 700;
     font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
   }
 .topnav a:hover {
     color: orange;
@@ -45,6 +48,9 @@ body {
 }
 @media screen and (max-width: 550px) 
 {
+    .topnav{
+        display: block;
+    }
     .topnav.responsive 
     {
         position: relative;
@@ -58,7 +64,7 @@ body {
     .topnav.responsive a {
       float: none;
       display: block;
-      text-align: left;
+      text-align: center;
     }
 }
 .bg-container{
@@ -636,6 +642,7 @@ body {
 }
 .address{
     display: flex; 
+    width: 180px;
 }
 .getintouch-socials{
     margin-top: 30px;
@@ -687,13 +694,19 @@ body {
         justify-content: center;
     }
     .cakezone-smallscr-bg{
-        display: flex;
-        justify-content:center;
-    }
-    .cakezone-smallscr-bg{
-        width: auto;
+        width: 100%;
     }
     .cakezone-contact-disp{
         margin-bottom: 0;
+        padding-left: 10px;
+    }
+    .quicklinks{
+        margin-bottom: 0px;
+    }
+    .address{
+        width: 100%;
+    }
+    .cakezone-newsletter br{
+        display: none;
     }
 }
