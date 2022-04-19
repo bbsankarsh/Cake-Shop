@@ -1,0 +1,258 @@
+body {
+    margin: 0 auto;
+    width: auto;
+    font-family: 'Oswald', sans-serif;
+}
+.MainContainer{
+    margin: 0 auto;
+    width: 100%;
+}
+.topnav{
+    display:flex ;
+    justify-content: center;
+    background-color: #2B2825;
+    font-family: 'Oswald', sans-serif;
+    width: 100%;
+    position: fixed;
+    text-align: center;
+}
+.topnav a {
+    padding: 20px 20px;
+    color:white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+.topnav a:hover {
+    color: orange;
+    transition: all .5s ease-in-out;
+  }
+.topnav a.active {
+    color: orange;
+  }
+.topnav .icon {
+    display: none;
+  }
+@media screen and (max-width: 550px) 
+{
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+      font-family: Arial, Helvetica, sans-serif;
+    } 
+}
+@media screen and (max-width: 550px) 
+{
+    .topnav{
+        display: block;
+    }
+    .topnav.responsive 
+    {
+        position: relative;
+    }
+    .topnav.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+      
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: center;
+    }
+}
+.aboutus-heading-bg{
+    padding: 108px 48px 48px 48px;
+    background-image: linear-gradient(rgba(43, 40, 37, 0.5), rgba(43, 40, 37, 0.5)), url("/img/bg1.jpg");
+    background-size: cover;
+    margin-bottom: 48px;
+}
+.aboutus-heading h1{
+    font-size: 56px;
+    color: white;
+    font-weight: 700;
+    font-family: 'Oswald', sans-serif;
+    line-height: 1.2;
+    margin: 0 0 8px 0;
+}
+.aboutus-heading-bg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutus-heading a{
+    color: orange;
+    text-decoration: none;
+}
+.aboutus-heading{
+    text-align: center;
+}
+.aboutuscontainer{
+    padding-top: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.aboutuscontainer1{
+    width: 1140px;   
+}
+.aboutus1{
+    text-align: center;
+    margin-bottom: 48px;
+}
+.aboutus1-line1{
+    font-family: 'Pacifico', cursive;
+    color: orange;
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.aboutus1-line2{
+    font-size: 56px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+}
+.aboutus2{
+    display: flex;
+}
+.aboutus2pic img{
+    width: 512px;
+    height: 472px;
+    padding: 0 24px;
+    object-fit: cover;
+}
+.aboutus2infobox{
+    padding: 0px 24px 32px 24px;
+}
+.aboutus2infobox2{
+    display: flex;
+    margin-top: 58px;
+}
+.aboutus2infobox2-award1{
+    padding-right: 24px;
+}
+.aboutus2infobox2-award2{
+    padding: 0px 24px 0px 24px;
+}
+.aboutus2infobox1 h3{
+    font-size: 24px;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 24px;
+}
+.aboutus2infobox2-award1-icon{
+    width: 70px;
+    height: 70px;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    outline: orange solid 10px;
+    margin-bottom: 34px;
+    margin-left: 10px;
+}
+.aboutus2infobox2-award2-icon{
+    width: 70px;
+    height: 70px;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    outline: orange solid 10px;
+    margin-bottom: 34px;
+    margin-left: 10px;
+}
+@media screen and (max-width: 900px){
+    .aboutus-heading h1{
+        font-size: 34px;
+    }
+    .aboutuscontainer{
+        padding-top: 0px;
+    }
+    .aboutus1-line1{
+        font-size: 24px;
+    }
+    .aboutus1-line2{
+        font-size: 33px;
+    }
+    .aboutus2{
+        display: block;
+    }
+    .aboutus2pic{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+    .aboutus2pic img{
+        width: 327px;
+        height: 400px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .aboutus2infobox2{
+        display: block;
+    }
+    .aboutus2infobox2-award1{
+        padding-right: 0px;
+    }
+    .aboutus2infobox2-award2{
+        padding: 0px;
+    }
+}
+.bg-achievement{
+    background-image: linear-gradient(rgba(43, 40, 37, 0.5), rgba(43, 40, 37, 0.5)), url("/img/bg1.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 48px;
+}
+.achievement{
+    width: 1140px;
+    padding: 96px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+}
+.achievement-disp{
+    padding: 0px 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.achievement-icon{
+    width: 40px;
+    height: 40px;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    outline: orange solid 10px;
+}
+.achievement-info{
+    padding-left: 34px;
+}
+@media screen and (max-width: 900px){
+    .achievement{
+        display: block;
+    }
+    .achievement-disp{
+        justify-content: left;
+        padding-left: 34px;
+        margin-top: 14px;
+        
+    }
+}
