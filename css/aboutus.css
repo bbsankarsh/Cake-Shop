@@ -31,9 +31,6 @@ body {
     color: orange;
     transition: all .5s ease-in-out;
   }
-.topnav a.active {
-    color: orange;
-  }
 .topnav .icon {
     display: none;
   }
@@ -67,31 +64,32 @@ body {
       text-align: center;
     }
 }
-.aboutus-heading-bg{
-    padding: 108px 48px 48px 48px;
+.aboutusheading-bg{
     background-image: linear-gradient(rgba(43, 40, 37, 0.5), rgba(43, 40, 37, 0.5)), url("/img/bg1.jpg");
     background-size: cover;
+    padding: 48px 48px;
     margin-bottom: 48px;
+    padding-top: 115px;
 }
-.aboutus-heading h1{
-    font-size: 56px;
+.aboutusheading{
+    padding: 0 12px 0 12px;
+    text-align: center;
+}
+.aboutusheading h1{
     color: white;
-    font-weight: 700;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 56px;
     font-family: 'Oswald', sans-serif;
-    line-height: 1.2;
-    margin: 0 0 8px 0;
 }
-.aboutus-heading-bg{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.aboutus-heading a{
+.aboutusheading a{
     color: orange;
     text-decoration: none;
 }
-.aboutus-heading{
-    text-align: center;
+@media screen and (max-width: 900px){
+    .aboutusheading h1{
+        font-size: 33px;
+    }
 }
 .aboutuscontainer{
     padding-top: 48px;
@@ -171,9 +169,6 @@ body {
     margin-left: 10px;
 }
 @media screen and (max-width: 900px){
-    .aboutus-heading h1{
-        font-size: 34px;
-    }
     .aboutuscontainer{
         padding-top: 0px;
     }
@@ -208,6 +203,8 @@ body {
         padding: 0px;
     }
 }
+
+
 .bg-achievement{
     background-image: linear-gradient(rgba(43, 40, 37, 0.5), rgba(43, 40, 37, 0.5)), url("/img/bg1.jpg");
     background-size: cover;
@@ -254,5 +251,116 @@ body {
         padding-left: 34px;
         margin-top: 14px;
         
+    }
+}
+
+
+.bg-outro{
+    margin-top: 135px;
+    padding: 0px 12px 0px 12px;
+    background-image: linear-gradient(rgba(43, 40, 37, 0.5), rgba(43, 40, 37, 0.5)), url("/img/bg1.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.outro{
+    width: 1140px;
+    padding-left: 12px;
+    padding-right: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cakezone-info{
+    background-color: orange;
+    border: 1px solid white;
+    outline: orange solid 10px;
+    margin-top: -50px;
+}
+.cakezone-info-bg{
+    width: 320px;
+}
+.cakezone-contact-bg{
+    display:flex;
+    margin-left: 35px;
+    width: 820px;
+}
+.cakezone-smallscr-bg{
+    width: 33%;
+}
+.cakezone-contact-disp{
+    padding: 48px 10px 0px 24px;
+    color: white;
+    margin-bottom: 48px;
+}
+.address{
+    display: flex; 
+    width: 180px;
+}
+.getintouch-socials{
+    margin-top: 30px;
+    display: flex;
+    padding-bottom: 10px;
+}
+.socials-icon{
+    width: 30px;
+    height: 30px;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    outline: orange solid 10px;
+    margin: 0 15px 0 15px ;
+}
+.socials-icon i:hover{
+    color: black;
+}
+.cakezone-quicklinks li{
+    margin-bottom: 8px;
+    list-style: none;
+}
+.cakezone-quicklinks li a{
+    text-decoration: none;
+    color: white;
+}
+@media screen and (max-width: 900px){
+    .outro{
+        display: block;
+        width: auto;
+        padding: 0;
+    }
+    .cakezone-info-bg{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 0 12px 0 12px;
+    }
+    .cakezone-info{
+        margin-top: 30px;
+    }
+    .cakezone-contact-bg{
+        width: 100%;
+        display: block;
+        margin-left: 0px;
+        margin-right: 0px;
+        justify-content: center;
+    }
+    .cakezone-smallscr-bg{
+        width: 100%;
+    }
+    .cakezone-contact-disp{
+        margin-bottom: 0;
+        padding-left: 10px;
+    }
+    .quicklinks{
+        margin-bottom: 0px;
+    }
+    .address{
+        width: 100%;
+    }
+    .cakezone-newsletter br{
+        display: none;
     }
 }
