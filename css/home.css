@@ -69,7 +69,7 @@ body {
     }
 }
 .bg-container{
-   background: url(img/BACKimage.jpg);
+    background: url(/img/BACKimage.jpg);
     background-size: cover;
     background-position-x: right;
     background-position-y: top;
