@@ -91,172 +91,77 @@ body {
         font-size: 33px;
     }
 }
-
-/* END*/
-.aboutuscontainer{
-    padding-top: 48px;
+.bg-testimonial{
+    padding: 48px 12px 0 12px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: white;
 }
-.aboutuscontainer1{
-    width: 1140px;   
-}
-.aboutus1{
-    text-align: center;
-    margin-bottom: 48px;
-}
-.aboutus1-line1{
-    font-family: 'Pacifico', cursive;
-    color: orange;
-    font-size: 32px;
-    font-weight: 600;
-    letter-spacing: 1px;
-}
-.aboutus1-line2{
-    font-size: 56px;
-    font-family: 'Oswald', sans-serif;
-    font-weight: 700;
-}
-.aboutus2{
-    display: flex;
-}
-.aboutus2pic img{
-    width: 512px;
-    height: 472px;
-    padding: 0 24px;
-    object-fit: cover;
-}
-.aboutus2infobox{
-    padding: 0px 24px 32px 24px;
-}
-.aboutus2infobox2{
-    display: flex;
-    margin-top: 58px;
-}
-.aboutus2infobox2-award1{
-    padding-right: 24px;
-}
-.aboutus2infobox2-award2{
-    padding: 0px 24px 0px 24px;
-}
-.aboutus2infobox1 h3{
-    font-size: 24px;
-    font-family: 'Oswald', sans-serif;
-    margin-bottom: 24px;
-}
-.aboutus2infobox2-award1-icon{
-    width: 70px;
-    height: 70px;
-    background-color: orange;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid white;
-    outline: orange solid 10px;
-    margin-bottom: 34px;
-    margin-left: 10px;
-}
-.aboutus2infobox2-award2-icon{
-    width: 70px;
-    height: 70px;
-    background-color: orange;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid white;
-    outline: orange solid 10px;
-    margin-bottom: 34px;
-    margin-left: 10px;
-}
-@media screen and (max-width: 900px){
-    .aboutuscontainer{
-        padding-top: 0px;
-    }
-    .aboutus1-line1{
-        font-size: 24px;
-    }
-    .aboutus1-line2{
-        font-size: 33px;
-    }
-    .aboutus2{
-        display: block;
-    }
-    .aboutus2pic{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 40px;
-    }
-    .aboutus2pic img{
-        width: 327px;
-        height: 400px;
-        padding-left: 0;
-        padding-right: 0;
-    }
-    .aboutus2infobox2{
-        display: block;
-    }
-    .aboutus2infobox2-award1{
-        padding-right: 0px;
-    }
-    .aboutus2infobox2-award2{
-        padding: 0px;
-    }
-}
-
-
-.bg-achievement{
-    background-image: linear-gradient(rgba(43, 40, 37, 0.5), rgba(43, 40, 37, 0.5)), url("/img/bg1.jpg");
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 48px;
-}
-.achievement{
+.testimonial{
     width: 1140px;
-    padding: 96px 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Oswald', sans-serif;
+    padding:0px 12px 0px 12px;
+    text-align: center;
+}
+.testimonial-row1 h2{
+    font-weight: 600;
+    text-align: center;
+}
+.testimonial-row1 h1{
+    font-size: 56px;
+    font-weight: 900;
     letter-spacing: 1px;
 }
-.achievement-disp{
-    padding: 0px 24px;
+.testimonial-row2{
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin: auto;
 }
-.achievement-icon{
-    width: 40px;
-    height: 40px;
-    background-color: orange;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.testimonial-row2-client-bg{
+    margin-right: 69px;
+}
+.testimonial-row2-client-bg-mr{
+    margin-right: 0px;
+}
+.testimonial-row2-client{
+    background-color: black;
     border: 1px solid white;
-    outline: orange solid 10px;
+    outline: black solid 12px;
+    padding: 15px 15px;
 }
-.achievement-info{
-    padding-left: 34px;
+.testimonial-row2-client p{
+    text-align: left;
+    margin-bottom: 0px;
+}
+.client-name{
+    display: flex;
+}
+.client-name img{
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+.client-img img{
+    width: 60px;
+    height: 60px;
+}
+.client-prof{
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
 }
 @media screen and (max-width: 900px){
-    .achievement{
+    .testimonial-row1 h1{
+        font-size: 45px;
+    }
+    .testimonial-row2{
         display: block;
     }
-    .achievement-disp{
-        justify-content: left;
-        padding-left: 34px;
-        margin-top: 14px;
-        
+    .testimonial-row2-client-bg {
+        margin-right: 0;
+        padding: 25px 0 25px 0;
+    }
+    .bg-testimonial{
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 }
-
-
 .bg-outro{
     margin-top: 135px;
     padding: 0px 12px 0px 12px;

@@ -91,174 +91,76 @@ body {
         font-size: 33px;
     }
 }
-
-/* END*/
-.aboutuscontainer{
-    padding-top: 48px;
+.bg-chefs{
+    padding: 48px 12px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: white;
 }
-.aboutuscontainer1{
-    width: 1140px;   
+.chefs{
+    width: 1140px;
+    padding:0px 12px 0px 12px;
+    display: block;
 }
-.aboutus1{
+.chefs-row1{
+    margin-bottom: 73px;
     text-align: center;
-    margin-bottom: 48px;
 }
-.aboutus1-line1{
-    font-family: 'Pacifico', cursive;
+.chefs-row2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chef-box-bg{
+    padding: 0px 24px 0px 24px;
+}
+.chef-box{
+    display: block;
+}
+.chef-img img{
+    width: 340px;
+    height: 340px;
+}
+.chef-info{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    background-color: black;
+    padding: 15px 0 10px 0;
+    margin: 10px 10px;
+    border: 1px solid white;
+    outline: black solid 10px; 
+}
+.chef-info h4{
     color: orange;
-    font-size: 32px;
     font-weight: 600;
     letter-spacing: 1px;
 }
-.aboutus1-line2{
-    font-size: 56px;
-    font-family: 'Oswald', sans-serif;
-    font-weight: 700;
-}
-.aboutus2{
-    display: flex;
-}
-.aboutus2pic img{
-    width: 512px;
-    height: 472px;
-    padding: 0 24px;
-    object-fit: cover;
-}
-.aboutus2infobox{
-    padding: 0px 24px 32px 24px;
-}
-.aboutus2infobox2{
-    display: flex;
-    margin-top: 58px;
-}
-.aboutus2infobox2-award1{
-    padding-right: 24px;
-}
-.aboutus2infobox2-award2{
-    padding: 0px 24px 0px 24px;
-}
-.aboutus2infobox1 h3{
-    font-size: 24px;
-    font-family: 'Oswald', sans-serif;
-    margin-bottom: 24px;
-}
-.aboutus2infobox2-award1-icon{
-    width: 70px;
-    height: 70px;
-    background-color: orange;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid white;
-    outline: orange solid 10px;
-    margin-bottom: 34px;
-    margin-left: 10px;
-}
-.aboutus2infobox2-award2-icon{
-    width: 70px;
-    height: 70px;
-    background-color: orange;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid white;
-    outline: orange solid 10px;
-    margin-bottom: 34px;
-    margin-left: 10px;
-}
-@media screen and (max-width: 900px){
-    .aboutuscontainer{
-        padding-top: 0px;
-    }
-    .aboutus1-line1{
-        font-size: 24px;
-    }
-    .aboutus1-line2{
-        font-size: 33px;
-    }
-    .aboutus2{
-        display: block;
-    }
-    .aboutus2pic{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 40px;
-    }
-    .aboutus2pic img{
-        width: 327px;
-        height: 400px;
-        padding-left: 0;
-        padding-right: 0;
-    }
-    .aboutus2infobox2{
-        display: block;
-    }
-    .aboutus2infobox2-award1{
-        padding-right: 0px;
-    }
-    .aboutus2infobox2-award2{
-        padding: 0px;
-    }
-}
-
-
-.bg-achievement{
-    background-image: linear-gradient(rgba(43, 40, 37, 0.5), rgba(43, 40, 37, 0.5)), url("/img/bg1.jpg");
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 48px;
-}
-.achievement{
-    width: 1140px;
-    padding: 96px 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Oswald', sans-serif;
+.chef-info p{
+    margin-bottom: 0px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
     letter-spacing: 1px;
 }
-.achievement-disp{
-    padding: 0px 24px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-}
-.achievement-icon{
-    width: 40px;
-    height: 40px;
-    background-color: orange;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid white;
-    outline: orange solid 10px;
-}
-.achievement-info{
-    padding-left: 34px;
-}
 @media screen and (max-width: 900px){
-    .achievement{
+    .chefs-row2{
         display: block;
     }
-    .achievement-disp{
-        justify-content: left;
-        padding-left: 34px;
-        margin-top: 14px;
-        
+    .chef-box{
+        padding: 20px 0 20px 0;
+    }
+    .chef-box-bg{
+        padding: 0px;
+    }
+    .chefs-row1{
+        margin-bottom: 30px;
+    }
+    .chef-img {
+        display: flex;
+        justify-content: center;
     }
 }
-
-
 .bg-outro{
-    margin-top: 135px;
+    margin-top: 90px;
     padding: 0px 12px 0px 12px;
     background-image: linear-gradient(rgba(43, 40, 37, 0.5), rgba(43, 40, 37, 0.5)), url("/img/bg1.jpg");
     background-size: cover;
